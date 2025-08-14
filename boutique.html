@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez la boutique Line Crochet : vêtements crochet sur mesure pour femmes, hommes, accessoires et créations personnalisées. Commandez depuis le Ghana, Bénin ou à l'international.">
+  <meta name="keywords" content="crochet, vêtements artisanaux, Line Crochet, Ghana, Bénin, boutique crochet">
+  <meta name="author" content="Line Crochet">
+  <title>Boutique - Line Crochet</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap">
+</head>
+<body>
+  <!-- Top Info Bar -->
+  <div class="top-bar">
+    <div class="top-bar-content">
+      <div class="contact-info">
+        <span class="info-item">
+          <img src="icons/phone.svg" alt="Téléphone" class="icon">
+          <a href="tel:+22901565949516">(+229) 01565949516</a>
+        </span>
+        <span class="info-item">
+          <img src="icons/location.svg" alt="Localisation" class="icon">
+          Ghana 🇬🇭 & Bénin 🇧🇯
+        </span>
+        <span class="info-item">
+          <img src="icons/award.svg" alt="Primée" class="icon">
+          Marque Primée au Ghana
+        </span>
+      </div>
+      <div class="social-links">
+        <a href="#" class="social-link" title="Facebook">
+          <img src="icons/facebook.svg" alt="Facebook" class="icon">
+        </a>
+        <a href="#" class="social-link" title="Instagram">
+          <img src="icons/instagram.svg" alt="Instagram" class="icon">
+        </a>
+        <a href="https://wa.me/+22901565949516" class="social-link" title="WhatsApp">
+          <img src="icons/whatsapp.svg" alt="WhatsApp" class="icon" style="width: 18px; height: 18px;">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="Line Crochet Logo" class="logo-img">
+        <h1>Line Crochet</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="about.html">À Propos</a></li>
+        <li><a href="formations.html">Formations</a></li>
+        <li><a href="boutique.html" class="active">Boutique</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="temoignages.html">Témoignages</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Boutique Intro Section -->
+  <main>
+    <section class="boutique-intro">
+      <div class="boutique-content">
+        <h1>Boutique Line Crochet 🧶</h1>
+        <p>Explorez nos créations crochet uniques, conçues avec soin au Ghana et au Bénin. Des vêtements pour femmes et hommes aux accessoires, chaque pièce est faite pour vous.</p>
+        <a href="#commande" class="cta-button">Passer une commande</a>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+      <h2>Nos Créations</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/complet_femme.jpg" alt="Robe crochet femme">
+            <div class="product-badge">Populaire</div>
+          </div>
+          <div class="product-info">
+            <h3>Ensemble Femme Élégant</h3>
+            <p>Ensemble crochet élégant, parfait pour toutes les occasions spéciales.</p>
+            <div class="product-price">
+              <span class="price-current">200,000</span>
+              <span class="price-currency">FCFA</span>
+            </div>
+            <div class="product-options">
+              <div class="option-group">
+                <label>Taille:</label>
+                <select class="size-selector">
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                  <option>XL</option>
+                </select>
+              </div>
+              <div class="option-group">
+                <label>Couleur:</label>
+                <div class="color-options">
+                  <div class="color-option" style="background: #FF6B6B;" data-color="Rouge"></div>
+                  <div class="color-option" style="background: #4ECDC4;" data-color="Turquoise"></div>
+                  <div class="color-option" style="background: #45B7D1;" data-color="Bleu"></div>
+                  <div class="color-option" style="background: #FFA726;" data-color="Orange"></div>
+                </div>
+              </div>
+              <div class="option-group">
+                <label>Quantité:</label>
+                <div class="quantity-selector">
+                  <button type="button" class="qty-btn minus">-</button>
+                  <input type="number" class="qty-input" value="1" min="1">
+                  <button type="button" class="qty-btn plus">+</button>
+                </div>
+              </div>
+            </div>
+            <button class="add-to-cart-btn">Ajouter au Panier</button>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/chemise_homme.jpg" alt="Chemise crochet homme">
+          </div>
+          <div class="product-info">
+            <h3>Chemise Homme Décontractée</h3>
+            <p>Chemise crochet légère, idéale pour un style décontracté et moderne.</p>
+            <div class="product-price">
+              <span class="price-current">150,000</span>
+              <span class="price-currency">FCFA</span>
+            </div>
+            <div class="product-options">
+              <div class="option-group">
+                <label>Taille:</label>
+                <select class="size-selector">
+                  <option>S</option>
+                  <option>M</option>
+                  <option>L</option>
+                  <option>XL</option>
+                  <option>XXL</option>
+                </select>
+              </div>
+              <div class="option-group">
+                <label>Couleur:</label>
+                <div class="color-options">
+                  <div class="color-option" style="background: #2C3E50;" data-color="Bleu Marine"></div>
+                  <div class="color-option" style="background: #FFFFFF; border: 1px solid #ddd;" data-color="Blanc"></div>
+                  <div class="color-option" style="background: #34495E;" data-color="Gris"></div>
+                  <div class="color-option" style="background: #E74C3C;" data-color="Rouge"></div>
+                </div>
+              </div>
+              <div class="option-group">
+                <label>Quantité:</label>
+                <div class="quantity-selector">
+                  <button type="button" class="qty-btn minus">-</button>
+                  <input type="number" class="qty-input" value="1" min="1">
+                  <button type="button" class="qty-btn plus">+</button>
+                </div>
+              </div>
+            </div>
+            <button class="add-to-cart-btn">Ajouter au Panier</button>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/sacs1.jpg" alt="Sac crochet">
+            <div class="product-badge new">Nouveau</div>
+          </div>
+          <div class="product-info">
+            <h3>Sac Artisanal Premium</h3>
+            <p>Sac crochet artisanal de haute qualité, pratique et tendance.</p>
+            <div class="product-price">
+              <span class="price-current">80,000</span>
+              <span class="price-currency">FCFA</span>
+            </div>
+            <div class="product-options">
+              <div class="option-group">
+                <label>Taille:</label>
+                <select class="size-selector">
+                  <option>Petit</option>
+                  <option>Moyen</option>
+                  <option>Grand</option>
+                </select>
+              </div>
+              <div class="option-group">
+                <label>Couleur:</label>
+                <div class="color-options">
+                  <div class="color-option" style="background: #D2691E;" data-color="Marron"></div>
+                  <div class="color-option" style="background: #228B22;" data-color="Vert"></div>
+                  <div class="color-option" style="background: #FF1493;" data-color="Rose"></div>
+                  <div class="color-option" style="background: #000000;" data-color="Noir"></div>
+                </div>
+              </div>
+              <div class="option-group">
+                <label>Quantité:</label>
+                <div class="quantity-selector">
+                  <button type="button" class="qty-btn minus">-</button>
+                  <input type="number" class="qty-input" value="1" min="1">
+                  <button type="button" class="qty-btn plus">+</button>
+                </div>
+              </div>
+            </div>
+            <button class="add-to-cart-btn">Ajouter au Panier</button>
+          </div>
+        </div>
+        
+        <div class="product-card">
+          <div class="product-image">
+            <img src="images/complet_sexy.jpg" alt="Création sur mesure">
+            <div class="product-badge custom">Sur Mesure</div>
+          </div>
+          <div class="product-info">
+            <h3>Création Personnalisée</h3>
+            <p>Personnalisez votre vêtement crochet selon vos envies et mesures exactes.</p>
+            <div class="product-price">
+              <span class="price-from">À partir de</span>
+              <span class="price-current">250,000</span>
+              <span class="price-currency">FCFA</span>
+            </div>
+            <div class="product-options">
+              <div class="option-group">
+                <label>Type:</label>
+                <select class="size-selector">
+                  <option>Robe</option>
+                  <option>Ensemble</option>
+                  <option>Chemise</option>
+                  <option>Accessoire</option>
+                </select>
+              </div>
+              <div class="option-group">
+                <label>Style:</label>
+                <div class="color-options">
+                  <div class="style-option" data-style="Élégant">Élégant</div>
+                  <div class="style-option" data-style="Décontracté">Décontracté</div>
+                  <div class="style-option" data-style="Soirée">Soirée</div>
+                  <div class="style-option" data-style="Travail">Travail</div>
+                </div>
+              </div>
+              <div class="option-group">
+                <label>Quantité:</label>
+                <div class="quantity-selector">
+                  <button type="button" class="qty-btn minus">-</button>
+                  <input type="number" class="qty-input" value="1" min="1">
+                  <button type="button" class="qty-btn plus">+</button>
+                </div>
+              </div>
+            </div>
+            <button class="add-to-cart-btn custom-btn">Demander un Devis</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Commande Form Section -->
+    <section id="commande" class="commande">
+      <h2>Passer une Commande</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="commande-form">
+        <div class="form-group">
+          <label for="name">Nom complet</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="product">Produit souhaité</label>
+          <select id="product" name="product" required>
+            <option value="" disabled selected>Choisissez un produit</option>
+            <option value="robe-femme">Robe Femme</option>
+            <option value="chemise-homme">Chemise Homme</option>
+            <option value="sac-accessoire">Sac Accessoire</option>
+            <option value="sur-mesure">Sur Mesure</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Détails de la commande (facultatif)</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+        <button type="submit" class="cta-button">Envoyer ma commande</button>
+      </form>
+    </section>
+
+    <!-- CTA to Galerie -->
+    <section class="cta-galerie">
+      <h2>Envie de voir plus ?</h2>
+      <p>Découvrez toutes nos créations dans la galerie.</p>
+      <a href="galerie.html" class="cta-button">Voir la Galerie</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Line Crochet</h3>
+        <p>Marque primée au Ghana, spécialisée dans la création de vêtements crochet sur mesure et la formation artisanale d'exception.</p>
+        <div class="footer-social">
+          <a href="#" title="Facebook">
+            <img src="icons/facebook.svg" alt="Facebook">
+          </a>
+          <a href="#" title="Instagram">
+            <img src="icons/instagram.svg" alt="Instagram">
+          </a>
+          <a href="https://wa.me/+22901565949516" title="WhatsApp">
+            <img src="icons/whatsapp.svg" alt="WhatsApp">
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Navigation</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">À Propos</a></li>
+          <li><a href="boutique.html">Boutique</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Services</h3>
+        <ul class="footer-links">
+          <li><a href="formations.html">Formations</a></li>
+          <li><a href="boutique.html">Vêtements sur Mesure</a></li>
+          <li><a href="temoignages.html">Témoignages</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p><strong>Téléphone:</strong><br>
+        <a href="tel:+22901565949516">(+229) 01565949516</a></p>
+        <p><strong>Localisation:</strong><br>
+        Ghana 🇬🇭 & Bénin 🇧🇯</p>
+        <p><strong>WhatsApp:</strong><br>
+        <a href="https://wa.me/+22901565949516">Discutez avec nous</a></p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 Line Crochet. Tous droits réservés. | Marque Primée au Ghana</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/+22901565949516" class="whatsapp-float" target="_blank">
+    <img src="icons/whatsapp.svg" alt="Chat WhatsApp">
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
